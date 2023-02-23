@@ -1,0 +1,44 @@
+#corps
+{
+    font-size: 1.7em;
+    color: #A4786C;
+}
+
+#corps h1
+{
+    font-family: 'AssistantExtraBold';
+    font-weight: bold;
+    color: #611621;
+}
+
+#corps h2
+{
+    color: #402723;
+}
+
+#corps h3
+{
+    font-family: 'BarlowLight';
+    letter-spacing: 0.1em;
+}
+
+#corps p:not(#experience p,#permis,#pdf)
+{
+    text-align: justify;
+}
+
+@media all and (max-width: 1024px) 
+{
+    #corps
+    {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 600px) 
+{
+    #corps
+    {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,21 @@
+#bloc_corps
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloc_corps > div
+{
+    width: 80%;
+    line-height: 1.5em;
+}
+
+#bloc_corps h1
+{
+    font-size: 1.5em;
+    width: 75%;
+    text-align: center;
+}
+

@@ -1,0 +1,52 @@
+#blocCV
+{
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+
+    width: 100%;
+    height: 100%;
+
+    margin-top: 50px;
+}
+
+#CVgauche
+{
+    grid-column: 4 / span 42;
+    display: flex;
+    flex-direction: column;
+}
+
+#CVdroit
+{
+    grid-column: 54 / span 42;
+    display: flex;
+    flex-direction: column;
+}
+
+#permis
+{
+    font-family: 'AssistantBold',Arial,serif;
+    grid-column: 11 / 89;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+#pdf
+{
+    text-align: center;
+    grid-column: 11 / 89;
+}
+
+#pdf > a
+{
+    color: #611621;
+}
+
+@media all and (max-width: 1024px) 
+{
+    #blocCV div
+    {
+        grid-column: 11 / span 80;
+    }    
+}

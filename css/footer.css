@@ -1,0 +1,102 @@
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 300px;
+    width: 100%;
+    background-color: #C4B6B2;
+}
+
+footer > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 80%;
+    width: 30%;
+}
+
+footer > div > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'BarlowMedium',Arial,serif;
+    font-size: 2em;
+
+    height: 40%;
+    width: 90%;
+}
+
+footer > div > div:nth-child(1)
+{
+    align-items: center;
+}
+
+footer > div > div:nth-child(2)
+{
+    align-items: start;
+}
+
+footer > div > div > p
+{
+    color : white;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+footer > div > div > figure
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+
+footer > div > div > figure img
+{
+    height: 100%;
+}
+
+#foot2 a
+{
+    height: 100%;
+}
+
+#foot2 img:hover
+{
+    height: 110%;
+}
+
+
+
+/*
+@media all and (max-width: 1024px) 
+{
+
+    footer div p
+    {
+        font-size: 1.1em;
+    }
+
+}
+
+@media all and (max-width: 600px) 
+{
+    
+    footer div p
+    {
+        font-size: 0.8em;
+    }
+
+}
+*/
