@@ -96,11 +96,6 @@ header
     z-index: 1;
 }
 
-#nom_header h1:hover
-{
-    font-size: 0;
-}
-
 #nom_header h2
 {
     font-family: 'BarlowLight';
